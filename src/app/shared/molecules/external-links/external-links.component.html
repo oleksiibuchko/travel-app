@@ -1,0 +1,4 @@
+<mat-card class="external-links">
+  <p>External Links</p>
+  <a *ngFor="let link of linksList" [href]="link.ref">{{link.title}}</a>
+</mat-card>

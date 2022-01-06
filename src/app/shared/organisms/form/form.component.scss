@@ -1,0 +1,43 @@
+:host {
+  width: 60%;
+}
+
+.form {
+  margin-left: 20px;
+  height: calc(100% - 32px);
+}
+
+.row {
+  display: flex;
+}
+
+mat-form-field {
+  width: 250px;
+  margin-right: 20px;
+}
+
+.button {
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.footer {
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1500px) {
+  :host {
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .form {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .row {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,23 @@
+.header-actions{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 100px;
+  margin-top: 20px;
+  height: 130px;
+  justify-content: space-between;
+}
+
+.search {
+  margin-left: 170px;
+}
+
+@media screen and (max-width: 950px){
+  .header-actions{
+    margin-right: 0;
+  }
+
+  .search {
+    margin-left: 0;
+  }
+}

@@ -1,0 +1,74 @@
+<mat-card class="form">
+  <div class="row">
+    <mat-radio-group>
+      <mat-radio-button *ngFor="let button of radioItems" [value]="button.value" class="button">
+        {{button.name}}
+      </mat-radio-button>
+    </mat-radio-group>
+  </div>
+
+  <div class="row">
+    <mat-form-field appearance="outline">
+      <mat-label>From</mat-label>
+      <mat-select>
+        <mat-option *ngFor="let city of citiesList" [value]="city.value">{{city.name}}</mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+      <mat-label>To</mat-label>
+      <mat-select>
+        <mat-option *ngFor="let city of citiesList" [value]="city.value">{{city.name}}</mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>
+
+  <div class="row">
+    <mat-form-field appearance="outline">
+      <mat-label>Depart on</mat-label>
+      <input matInput [matDatepicker]="departOn">
+      <mat-datepicker-toggle matSuffix [for]="departOn"></mat-datepicker-toggle>
+      <mat-datepicker #departOn></mat-datepicker>
+    </mat-form-field>
+
+
+    <mat-form-field appearance="outline">
+      <mat-label>Return on</mat-label>
+      <input matInput [matDatepicker]="returnOn">
+      <mat-datepicker-toggle matSuffix [for]="returnOn"></mat-datepicker-toggle>
+      <mat-datepicker #returnOn></mat-datepicker>
+    </mat-form-field>
+  </div>
+
+  <div class="row">
+    <mat-form-field appearance="outline">
+      <mat-label>Guest</mat-label>
+      <mat-select>
+        <mat-option *ngFor="let city of guestsList" [value]="city.value">{{city.name}}</mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+      <mat-label>Class</mat-label>
+      <mat-select>
+        <mat-option *ngFor="let city of classesList" [value]="city.value">{{city.name}}</mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>
+
+  <div class="row">
+    <mat-form-field appearance="outline">
+      <mat-label>Airline</mat-label>
+      <mat-select multiple>
+        <mat-option *ngFor="let city of airlinesList" [value]="city.value">{{city.name}}</mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>
+
+  <div class="row footer">
+    <mat-checkbox class="button">Include Near by Airports</mat-checkbox>
+
+    <button mat-raised-button>Search</button>
+  </div>
+
+</mat-card>

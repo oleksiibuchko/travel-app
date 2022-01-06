@@ -1,0 +1,14 @@
+.side-bar {
+  display: flex;
+  flex-direction: column;
+  width: 130px;
+  height: calc(100% - 32px);
+
+  @media screen and (max-width: 950px){
+    display: none;
+  }
+}
+
+.link {
+  margin-top: 10px;
+}

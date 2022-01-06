@@ -1,0 +1,12 @@
+<div class="header-actions">
+  <app-molecule-header-nav [headerNavItems]="headerNavItems"></app-molecule-header-nav>
+  <mat-form-field appearance="outline" class="search">
+    <mat-label>Search</mat-label>
+    <mat-icon matSuffix>search</mat-icon>
+    <input
+      matInput
+      type="search"
+      placeholder="Search"
+      [formControl]="searchControl">
+  </mat-form-field>
+</div>
