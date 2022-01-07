@@ -7,12 +7,17 @@ import { HomeComponent } from './home/home.component';
 const routes: Routes = [
   {
     path: '',
-    redirectTo: 'home',
-    pathMatch: 'full'
+    component: HomeComponent
   },
   {
-    path: 'home',
-    component: HomeComponent
+    path: 'topics/:id',
+    component: HomeComponent,
+    children: [
+      {
+        path: 'section/:id',
+        component: HomeComponent
+      }
+    ]
   }
 ];
 

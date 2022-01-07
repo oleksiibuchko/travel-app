@@ -4,101 +4,101 @@ import { ILink } from '../shared/interfaces/link.interface';
 
 export const headerNavItems: INavItem[] = [
   {
-    link: '#',
+    link: '/topics/1',
     title: 'Topic 1'
   },
   {
-    link: '#',
+    link: '/topics/2',
     title: 'Topic 2'
   },
   {
-    link: '#',
+    link: '/topics/3',
     title: 'Topic 3'
   },
   {
-    link: '#',
+    link: '/topics/4',
     title: 'Topic 4'
   }
 ];
 
 export const navItems: INavItem[] = [
   {
-    link: '#',
+    link: 'section/1',
     title: 'Section 1'
   },
   {
-    link: '#',
+    link: 'section/2',
     title: 'Section 2'
   },
   {
-    link: '#',
+    link: 'section/3',
     title: 'Section 3'
   },
   {
-    link: '#',
+    link: 'section/4',
     title: 'Section 4'
   }
 ];
 
 export const sideBarNavItems: INavItem[] = [
   {
-    link: '#',
+    link: 'section/1',
     title: 'Section 1'
   },
   {
-    link: '#',
+    link: 'section/2',
     title: 'Section 2'
   },
   {
-    link: '#',
+    link: 'section/3',
     title: 'Section 3'
   },
   {
-    link: '#',
+    link: 'section/4',
     title: 'Section 4'
   },
   {
-    link: '#',
+    link: 'section/5',
     title: 'Section 5'
   },
   {
-    link: '#',
+    link: 'section/6',
     title: 'Section 6'
   },
   {
-    link: '#',
+    link: 'section/7',
     title: 'Section 7'
   },
   {
-    link: '#',
+    link: 'section/8',
     title: 'Section 8'
   },
   {
-    link: '#',
+    link: 'section/9',
     title: 'Section 9'
   },
   {
-    link: '#',
+    link: 'section/10',
     title: 'Section 10'
   },
   {
-    link: '#',
+    link: 'section/11',
     title: 'Section 11'
   },
   {
-    link: '#',
+    link: 'section/12',
     title: 'Section 12'
   },
   {
-    link: '#',
+    link: 'section/13',
     title: 'Section 13'
   },
   {
-    link: '#',
+    link: 'section/14',
     title: 'Section 14'
   },
   {
-    link: '#',
+    link: 'section/15',
     title: 'Section 15'
   }
 ];
