@@ -1,5 +1,5 @@
 :host {
-  width: 120em;
+  width: 100%;
 }
 
 .content {
@@ -16,7 +16,7 @@
   margin-top: 20px;
 }
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1200px) {
   .top, .bottom {
     flex-direction: column;
   }

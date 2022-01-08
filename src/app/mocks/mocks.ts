@@ -1,5 +1,5 @@
 import { INavItem } from '../shared/interfaces/nav-item.interface';
-import { IFormControl } from '../shared/interfaces/radio-button.interface';
+import { IFormControl } from '../shared/interfaces/form-control.interface';
 import { ILink } from '../shared/interfaces/link.interface';
 
 export const headerNavItems: INavItem[] = [

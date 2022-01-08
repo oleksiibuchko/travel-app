@@ -1,7 +1,7 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { AbstractControl, FormControl, FormGroup, Validators } from '@angular/forms';
 
-import { IFormControl } from '../../interfaces/radio-button.interface';
+import { IFormControl } from '../../interfaces/form-control.interface';
 
 @Component({
   selector: 'app-organism-form',

@@ -8,6 +8,4 @@ import { Component, Input } from '@angular/core';
 export class ImageComponent {
   @Input() src = 'https://via.placeholder.com/100?text=dummy';
   @Input() alt = 'dummy';
-  @Input() width = 100;
-  @Input() height = 100;
 }

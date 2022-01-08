@@ -1,6 +1,6 @@
 import { Component, Input } from '@angular/core';
 import { INavItem } from '../../interfaces/nav-item.interface';
-import { IFormControl } from '../../interfaces/radio-button.interface';
+import { IFormControl } from '../../interfaces/form-control.interface';
 import { ILink } from '../../interfaces/link.interface';
 
 @Component({

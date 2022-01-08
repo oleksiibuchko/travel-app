@@ -1,5 +1,5 @@
 import { Component, HostListener, Input } from '@angular/core';
-import { IFormControl } from '../../interfaces/radio-button.interface';
+import { IFormControl } from '../../interfaces/form-control.interface';
 import { ILink } from '../../interfaces/link.interface';
 
 @Component({
