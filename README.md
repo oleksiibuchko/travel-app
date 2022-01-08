@@ -11,7 +11,7 @@ but smart components, that would receive and share data by using state managers 
 
 1) Initializing project, creating basic modules, creating Atomic Design elements structure - 2 hours
 2) Working on connections between components, components basic logic - 3 hours.
-3) Creating layout and styling - near 3 hours.
+3) Creating layout and styling - near 3,5 hours.
 4) Creating unit tests - near half an hour.
 
 ## Any known issues or limitations of the solution

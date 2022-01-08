@@ -1,6 +1,8 @@
-<mat-card class="content">
-  <div class="top">
+<mat-card bp="grid 1@xl" class="content">
+  <div bp="5">
     <app-atom-image [src]="image"></app-atom-image>
+  </div>
+  <div bp="7">
     <app-organism-form
       [radioItems]="formRadioButtons"
       [citiesList]="citiesList"
@@ -9,8 +11,11 @@
       [airlinesList]="airlinesList"
     ></app-organism-form>
   </div>
-  <div class="bottom">
+
+  <div bp="7">
     <app-molecule-article [text]="articleText"></app-molecule-article>
+  </div>
+  <div bp="5">
     <app-molecule-external-links [linksList]="linksList"></app-molecule-external-links>
   </div>
 </mat-card>

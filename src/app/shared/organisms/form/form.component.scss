@@ -4,7 +4,6 @@
 
 .form {
   margin-left: 20px;
-  height: calc(100% - 32px);
 }
 
 .row {
@@ -25,7 +24,7 @@ mat-form-field {
   justify-content: space-between;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1440px) {
   :host {
     margin-top: 20px;
     width: 100%;

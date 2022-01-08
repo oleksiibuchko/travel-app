@@ -1,9 +1,8 @@
 :host {
-  width: 60%;
   margin-right: 20px;
 
-  @media screen and (max-width: 1200px) {
-    width: 100%;
+  @media screen and (max-width: 1440px) {
+    margin-right: 0;
   }
 }
 
